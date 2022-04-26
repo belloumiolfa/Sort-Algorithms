@@ -27,7 +27,7 @@ function Hero() {
                </div>
                <div className='col-lg-6 order-1 order-lg-2 hero-img'>
                   <img
-                     src='assets/img/hero-img.svg'
+                     src='/assets/img/hero-img.svg'
                      className='img-fluid animated'
                      alt=''
                   />

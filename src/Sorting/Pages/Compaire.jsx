@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 import Breadcrumbs from '../Components/Breadcrumbs';
-import Comments from '../Components/Comments';
-import Courbe from '../Components/Courbe';
 import tab from '../../Shared/List';
-import ChartAlgo from '../Components/ChartAlgo';
 import Complexity from './Complexity';
-import AlgorithmDetails from '../Components/AlgorithmDetails';
 import Level from '../Components/Level';
 import { Link } from 'react-router-dom';
 
 const Compaire = () => {
    const [array, setArray] = useState([]);
-   const [runing, setRuning] = useState(false);
    const [level, setlevel] = useState('Worst');
 
    const handleLevel = l => {
@@ -27,11 +22,6 @@ const Compaire = () => {
       }
 
       setArray(tab);
-
-      if (tab.length !== 0) {
-         setRuning(false);
-      }
-      setRuning(true);
    };
    return (
       <div>

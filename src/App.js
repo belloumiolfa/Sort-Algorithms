@@ -1,10 +1,5 @@
 import './App.css';
-import {
-   HashRouter as Router,
-   Route,
-   Redirect,
-   Routes,
-} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import SortingAlgorithms from './Sorting/Pages/SortingAlgorithms';
 import Header from './Welcom/Components/Header';
 import Hero from './Welcom/Pgaes/Hero';
